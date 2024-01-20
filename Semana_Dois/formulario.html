@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro:</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário de inscrição:</h1>
+        <img src="https://arizonagrupo.com.br/wp-content/uploads/2020/07/doacaosangue.jpeg  " alt="logo de doação" width="300" weidht="300">
+    </header>
+
+    <h2>Preencha os campos abaixo:</h2>
+
+    <section>
+        <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br>
+
+        <label for="cpf">CPF:</label>
+        <input type="number" id="cpf" name="cpf" maxlength="11" required><br>
+
+        <label for="tipoSangue">Tipo de Sangue:</label>
+        <select id="tipoSangue" name="tipoSangue" required><br>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+        </select><br>
+
+        <label for="agendamento">Data e Hora para Agendamento:</label>
+        <input type="datetime-local" id="agendamento" name="agendamento" required><br>
+
+        
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar</button>
+
+        </form>
+    </section>
+    <footer>
+       <h6>Rua Esteves Júnior, 160 - Centro - CEP: 88.015-130 - Florianópolis - Fone: (48) 3664-9000 &copy; 2024 Hospital de Doação de Sangue. Todos os direitos reservados</h6>
+                                                   
+    </footer>
+    
+</body>
+</html>
