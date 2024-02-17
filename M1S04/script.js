@@ -91,13 +91,7 @@ function compra(){
         }
     }
 
-return document.write('Seu maior pedido foi de ${produtos[index]} com ${maiorQtde} itens.')
+return document.write(Seu maior pedido foi de ${produtos[index]} com $ {maiorQtde} itens)
 }
 
 compra()
-
-
-
-
-
-
