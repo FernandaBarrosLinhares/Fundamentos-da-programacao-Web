@@ -39,6 +39,22 @@ adicao(2,2, (sum)=>{
     console.log("O resultado final é:" + sum);
 })
 
+//Exercicio 5
+
+
+let totalRuins = 0;
+let contador = 1;
+
+while (contador <= 4){
+    let resposta = prompt("Qual a sua avaliação para série Stranger Thinks (bom), (ruim) ou (excelente)?");
+    if (resposta == "ruim"){
+        totalRuins++;
+    }
+    contador++;
+}
+
+console.log('Total que avaliou como ruim: $ {totalRuins}');
+
 
    
 
