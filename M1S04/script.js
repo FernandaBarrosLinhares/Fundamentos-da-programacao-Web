@@ -16,14 +16,31 @@
 
 //Exercicio 3
 
-const exercicio = (array)=> {
-    let soma = 0;
-    for(let numero of array){
-        soma += numero;
-    }
-    let media = soma/array.length;
-    return media;
+// const exercicio = (array)=> {
+//     let soma = 0;
+//     for(let numero of array){
+//         soma += numero;
+//     }
+//     let media = soma/array.length;
+//     return media;
+// }
+// let arrayNumeros = [10,20,30];
+// console.log (exercicio(arrayNumeros));
+
+//Exercicio 4
+
+function adicao(numero1, numero2,funcaoAnonima){
+    let soma = numero1 + numero2;
+
+    funcaoAnonima(soma);
 }
-let arrayNumeros = [10,20,30];
-console.log (exercicio(arrayNumeros));
+
+adicao(2,2, (sum)=>{
+    console.log("O resultado final é:" + sum);
+})
+
+
+   
+
+
 
