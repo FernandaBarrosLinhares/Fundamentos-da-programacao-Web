@@ -42,21 +42,26 @@ adicao(2,2, (sum)=>{
 //Exercicio 5
 
 
-let totalRuins = 0;
-let contador = 1;
+// let totalRuins = 0;
+// let contador = 1;
 
-while (contador <= 4){
-    let resposta = prompt("Qual a sua avaliação para série Stranger Thinks (bom), (ruim) ou (excelente)?");
-    if (resposta == "ruim"){
-        totalRuins++;
-    }
-    contador++;
+// while (contador <= 4){
+//     let resposta = prompt("Qual a sua avaliação para série Stranger Thinks (bom), (ruim) ou (excelente)?");
+//     if (resposta == "ruim"){
+//         totalRuins++;
+//     }
+//     contador++;
+// }
+
+// console.log('Total que avaliou como ruim: $ {totalRuins}');
+
+
+//Exercicio 6
+
+for (let i = 0; i <= 10; i++) {
+    console.log(`5 x ${i} = ${5 * i}`);
 }
 
-console.log('Total que avaliou como ruim: $ {totalRuins}');
-
-
-   
 
 
 
