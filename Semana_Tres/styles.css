@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    
+}
+
+header {
+    background-color: #1574b7;
+    color: #fff;
+    padding: 10px 0;
+    text-align: start;
+}
+
+#inicio{
+    align-items: center;
+    color:#101963;
+}
+
+h1{
+    color: #fff;
+    padding: 10px;
+    text-decoration-style: solid;
+}
+
+h2{
+    color: #151d55;
+    text-align: center;
+    text-decoration: solid;
+}
+
+li{
+    text-align:center;
+    padding: 8px;
+    color: #0f1a66;
+    text-decoration-style: solid ;
+   
+
+}
+
+nav {
+    background-color: #1574b7;
+    padding: 10px 0;
+    text-align: end;
+}
+
+nav a {
+    color: #fbf5f9;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0,1);
+}
+
+/* Adicione estas regras ao seu arquivo CSS existente */
+
+/* Estilo para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Estilo para o cabeçalho da tabela */
+table th {
+    background-color: #1574b7;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilo para linhas ímpares da tabela */
+table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para linhas pares da tabela */
+table tbody tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+/* Estilo para células da tabela */
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Estilo para a seção de Perguntas? */
+#perguntas {
+    background-color: #f8f8f8;
+    padding: 10px; /* Reduzir o padding para ocupar menos espaço */
+    margin: 20px auto; /* Centralizar a seção com margens automáticas na horizontal */
+    max-width: 600px; /* Definir uma largura máxima para a seção */
+    text-align: center; /* Centralizar o conteúdo na seção */
+}
+
+/* Estilo para o título Perguntas? */
+#perguntas h2 {
+    color: #12024c;
+    font-size: 18px; /* Reduzir o tamanho da fonte para ocupar menos espaço */
+}
+
+/* Estilo para o formulário */
+#perguntas form {
+    margin-top: 10px; /* Reduzir a margem superior do formulário */
+}
+
+/* Estilo para os rótulos do formulário */
+#perguntas form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #1a0764;
+}
+
+/* Estilo para os campos de entrada do formulário */
+#perguntas form input,
+#perguntas form textarea {
+    width: 100%;
+    padding: 8px; /* Reduzir o padding dos campos de entrada */
+    margin-bottom: 10px; /* Reduzir a margem inferior dos campos de entrada */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilo para o botão do formulário */
+#perguntas form button {
+    background-color: #4458ef;
+    color: #fff;
+    padding: 8px 16px; /* Reduzir o padding do botão */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilo para o botão do formulário ao passar o mouse */
+#perguntas form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #4458ef;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
