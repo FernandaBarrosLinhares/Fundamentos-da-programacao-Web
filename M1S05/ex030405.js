@@ -25,7 +25,7 @@ console.log("A soma dos numeros é", soma)
 //Exercicio 5
 
 const numerosOrdenados = [...numeros]
-numerosOrdenados.sort((numero1, numero2) => numero2 - numero1 )
+numerosOrdenados.sort((numero1, numero2) => numero1 - numero2 )
 console.log(numerosOrdenados)
 
 //Exercicio 6
